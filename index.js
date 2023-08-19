@@ -84,7 +84,7 @@ function writeToFile(fileName, answers) {
     fs.writeFileSync(fileName, template)
     console.log('README file has been generated')
 }
-
+//test
 
 function init() {
     inquirer.prompt(questions).then((answers) => {
